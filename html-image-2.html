@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      function myFunction() {
+        alert("You clicked the book!");
+      }
+    </script>
+    <title>HTML IMAGE MAPS</title>
+  </head>
+  <body>
+    <img src="/img/workplace.jpg" alt="workplace" usemap="#workmap" />
+
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="35,43,271,347"
+        href="https://en.wikipedia.org/wiki/Computer"
+      />
+      <area
+        shape="rect"
+        coords="290,171,333,244"
+        href="https://en.wikipedia.org/wiki/Mobile_phone"
+      />
+      <area
+        shape="circle"
+        coords="336,299,45"
+        href="https://en.wikipedia.org/wiki/Coffee"
+      />
+      <area
+        shape="poly"
+        coords="2,209,31,219,2,283"
+        href="https://en.wikipedia.org/wiki/Book"
+        onclick="myFunction()"
+      />
+    </map>
+  </body>
+</html>
