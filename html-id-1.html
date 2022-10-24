@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML ID ATTRIBUTE</title>
+    <style>
+      /* Style the element with th id "myHeader" */
+      #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+      }
+
+      /* Style all elements with the class name "city" */
+      .city {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+      }
+    </style>
+    <script>
+      function displayResult() {
+        document.getElementById("myHeader").innerHTML = "Have a nice day!";
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="displayResult()">Change text!</button>
+    <br />
+    <a href="#C4">Jump to Chapter 4</a>
+    <!-- An element with a unique id -->
+    <h1 id="myHeader">My Cities</h1>
+
+    <!-- Multiple elements with same class -->
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+
+    <h2 class="city">Seoul</h2>
+    <p>Seoul is the capital of South Korea.</p>
+    <pre>
+      1
+
+
+
+
+
+
+      2
+
+
+
+
+
+
+
+
+
+      3
+
+
+
+
+
+
+
+
+
+
+
+      4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      7
+    </pre>
+    <h2 id="C4">Chapter 4</h2>
+  </body>
+</html>
