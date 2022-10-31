@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semantic elements</title>
+    <style>
+      .all-browsers {
+        margin: 0;
+        padding: 5px;
+        background-color: lightgray;
+      }
+      .all-browsers > h1,
+      .browser {
+        margin: 10px;
+        padding: 5px;
+      }
+      .browser {
+        background: white;
+      }
+      .browser > h2,
+      p {
+        margin: 4px;
+        font-size: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>section1</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, ad.
+      </p>
+    </section>
+
+    <section>
+      <h1>section2</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, ad.
+      </p>
+    </section>
+
+    <article class="all-browsers">
+      <h1>Three Articles</h1>
+      <article class="browser">
+        <h2>article1</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+          totam.
+        </p>
+      </article>
+
+      <article class="browser">
+        <h2>article2</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+          totam.
+        </p>
+      </article>
+
+      <article class="browser">
+        <h2>article3</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+          totam.
+        </p>
+      </article>
+    </article>
+
+    <article>
+      <header>
+        <h1>What Does WWF Do?</h1>
+        <p>WWF's mission:</p>
+      </header>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi,
+        blanditiis!
+      </p>
+    </article>
+
+    <br />
+
+    <footer>
+      <p>Author: Hege Refsnes</p>
+      <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+
+    <nav>
+      <a href="https://www.w3schools.com/html/">HTML</a> |
+      <a href="https://www.w3schools.com/css/">CSS</a> |
+      <a href="https://www.w3schools.com/js/">Javascript</a> |
+      <a href="https://www.w3schools.com/jQuery/">jQuery</a>
+    </nav>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nisi id
+      rem quis quas adipisci provident magnam atque exercitationem voluptas.
+    </p>
+
+    <aside>
+      <h4>Epcot Center</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        vitae sequi consectetur recusandae dolore beatae cumque quia accusamus
+        praesentium. Et?
+      </p>
+    </aside>
+
+    <figure>
+      <img src="img/ine.png" alt="ine" />
+      <figcaption>Fig1. - Trulli, Puglia, Italy</figcaption>
+    </figure>
+  </body>
+</html>
